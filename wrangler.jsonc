@@ -25,5 +25,12 @@
       "!/sitemap-*"
     ]
   },
+  // Serve the site on the bare domain (no www, no workers.dev subdomain).
+  // Cloudflare creates the DNS record and certificate for it on deploy.
+  "routes": [
+    { "pattern": "cariblancolabs.com", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": true,
   "previews": {}
 }
