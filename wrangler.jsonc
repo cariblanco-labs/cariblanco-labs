@@ -5,7 +5,7 @@
 {
   "$schema": "https://unpkg.com/wrangler/config-schema.json",
   // Must match the Worker that Cloudflare Workers Builds deploys.
-  "name": "foresta-works",
+  "name": "cariblancolabs",
   "compatibility_date": "2026-09-01",
   "main": "src/edge/worker.ts",
   "assets": {
