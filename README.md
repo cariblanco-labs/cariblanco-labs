@@ -1,6 +1,6 @@
 # Cariblanco Labs website
 
-Static marketing site for Cariblanco Labs (formerly Foresta Works), a Costa Rica studio that builds and looks after websites, and can add an intelligent assistant (on the site, WhatsApp or social media), for businesses and organizations. Built with [Astro](https://astro.build) 7 and strict TypeScript.
+Static marketing site for Cariblanco Labs, a Costa Rica studio that builds and looks after websites, and can add an intelligent assistant (on the site, WhatsApp or social media), for businesses and organizations. Built with [Astro](https://astro.build) 7 and strict TypeScript.
 
 Costa Rican Spanish lives at `/es/`; English at `/en/`. There is no database, CMS, authentication, or server-side rendering.
 
@@ -182,6 +182,6 @@ npx wrangler login      # once
 npx wrangler deploy
 ```
 
-`wrangler.jsonc` serves `dist/` and runs `src/edge/worker.ts` for page URLs, so `/` and legacy URLs respect the saved language. Its `name` must match the Worker that Cloudflare Workers Builds deploys (`foresta-works`). There are no secrets in this repository.
+`wrangler.jsonc` serves `dist/` and runs `src/edge/worker.ts` for page URLs, so `/` and legacy URLs respect the saved language. Its `name` must match the Worker that Cloudflare Workers Builds deploys (`cariblancolabs`). There are no secrets in this repository.
 
 `dist/` is gitignored. Do not deploy a stale `dist/` folder: run `npm run build` immediately before `npx wrangler deploy`.
