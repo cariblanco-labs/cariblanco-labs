@@ -56,7 +56,7 @@ export const site: SiteConfig = {
   ],
   contact: {
     whatsappNumber: '50684047487',
-    email: null,
+    email: 'cariblancolabs@gmail.com',
     hours: null,
   },
   social: {
