@@ -117,7 +117,7 @@ and posed by `Cariblanco.astro`:
 
 | Pose | Where |
 |---|---|
-| `head` | Wordmark (tilts on hover) and `public/favicon.svg` |
+| `head` | Wordmark (stays still) and `public/favicon.svg` |
 | `hang` (`swing`, `look`) | Under the hero's branch (two hold points), 404, About troop |
 | `leap` | Between the hero's two hold points: wind-up, arc over the branch, catch and swing |
 | `walk` | Along the home steps' vine when it scrolls in |
